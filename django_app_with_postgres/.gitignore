@@ -1,0 +1,12 @@
+*/__pycache__/*
+*.pyc
+
+### ### ### ### ### ### ###
+# WebApp containers
+### ### ### ### ### ### ###
+# django container
+django/opt/mysite/polls/migrations
+# postgresql container
+postgresql/data/*
+postgresql/init/*
+

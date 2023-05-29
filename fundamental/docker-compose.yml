@@ -1,0 +1,9 @@
+version: '3'
+services:
+  python3:
+    #restart: always
+    build: ./python/
+    container_name: 'python3'
+    tty: true #正常終了させないための仮プロセス
+    volumes:
+      - ./fundamental_python/opt:/workdir/opt
