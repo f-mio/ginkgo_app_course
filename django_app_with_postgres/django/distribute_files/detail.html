@@ -1,0 +1,44 @@
+{% extends "polls/base.html" %}
+
+{% block load_file %}
+{% load static %}
+<!-- JSファイルの読み込み -->
+{% endblock %}
+
+
+{% block title %}
+投票アプリ - detail
+{% endblock %}
+
+
+{% block header-title %}
+投票アプリケーション
+{% endblock %}
+
+{% block content %}
+<div class="main-area-inner">
+    <h2 class="subtitle">『<!-- 質問のタイトルを入れる -->』について投票</h2>
+
+    <!-- 選択肢を追加する 始め-->
+    <div class="detail-contains-area">
+        <!-- 質問用選択肢追加画面 -->
+        <div class="delete-this-question">
+            <form action="削除用URLを指定" method="post">
+                <!-- 削除する記載を追加する -->
+            </form>
+        </div>
+    </div>
+    <!-- 選択肢を追加する 終了-->
+
+    <form action="投票用リンク" method="post">
+        <fieldset id="choice_fieldset" class="choices-area">
+            <!-- 質問用選択肢の表示を行う。(エラー表示機能を含む) -->
+        </fieldset>
+        <input type="submit" value="投票する" class="btn btn-primary post-choice-btn">
+    </form>
+
+</div>
+<script>
+    // 質問用選択肢追加用のJavaScript
+</script>
+{% endblock %}
