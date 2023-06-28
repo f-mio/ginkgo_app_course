@@ -1,0 +1,10 @@
+*/__pycache__/*
+*.pyc
+
+### ### ### ### ### ### ###
+# WebApp containers
+### ### ### ### ### ### ###
+# postgresql container
+postgresql/data/*
+postgresql/init/*
+

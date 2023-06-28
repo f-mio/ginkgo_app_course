@@ -1,0 +1,25 @@
+*/__pycache__/*
+*.pyc
+
+
+### ### ### ### ### ### ###
+# WebApp containers
+### ### ### ### ### ### ###
+# python container
+fundamental/python/opt/*/test_*
+# postgresql container
+fundamental/postgresql/data/
+fundamental/postgresql/init/
+
+### ### ### ### ### ### ###
+# WebApp containers
+### ### ### ### ### ### ###
+# django container
+django/opt/mysite/polls/migrations
+django_app_with_postgres/django/opt/mysite/polls/migrations
+django_app_with_postgres/django/opt/mysite/.env
+# postgresql container
+postgresql/data/*
+django_app_with_postgres/postgresql/data/*
+postgresql/init/*
+

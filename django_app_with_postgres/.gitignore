@@ -8,5 +8,6 @@
 django/opt/mysite/mysite/.env
 django/opt/mysite/polls/migrations
 # postgresql container
+
 postgresql/data/*
 postgresql/init/*
