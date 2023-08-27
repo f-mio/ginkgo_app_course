@@ -1,17 +1,27 @@
-# 辞書の内容が下記になるように内容の追記および修正を行なってください。
-# キーに"猫"が入ったら、"cats"を返す
-# キーに"犬"が入ったら、"dogs"を返す。
-# 下記にプログラムを記載してください。
+"""
+[deep copy and sharrow copy]
+templateであるinput_listに変更を加えず、input_listをコピーしたもので
+   output = [0, 1, 2, 3]
+となるものを作成してください。
+下記にプログラムを書いて下さい。
+"""
 
-animals = {
-    '犬': 'dog',
-    'ライオン': 'lions'
-}
+input_list = [0, 1, 1, 2]
 
-# 下記にプログラムを書いて下さい。
-def animal_dict_handling(animal_dict: dict):
-    pass
+
+def list_copy():
+    # inputリストのコピーを作成してください。
+
+    # ここでコピーしたもの2番目の値を2に入れ替えてください。
+
+    return output
 
 
 if __name__ == '__main__':
-    animal_dict_handling(animals)
+
+    # inputの値をinput_valueに代入
+    output = list_copy(input_list)
+
+    print('出力結果は下記のとおりです。')
+    print(f"input  : {input_list}")
+    print(f"output : {output}")

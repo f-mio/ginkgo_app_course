@@ -9,9 +9,9 @@
 import psycopg2
 
 
-def generate_postgresql_instanse():
+def generate_postgresql_instance():
     # DataBase名を記入してください。
-    dbname = ""
+    dbname = "python_sql_exercise_db"
     # DataBaseホストを記入してください。(IPアドレスです)
     dbhost = ""
     # DataBaseのポートを記入してください。

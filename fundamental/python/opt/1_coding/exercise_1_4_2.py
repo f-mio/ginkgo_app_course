@@ -1,6 +1,9 @@
-# animal_namesのタプルをコンソールに順番に表示するプログラムを作成して下さい。
+"""
+[ループ処理2]
+animal_namesのタプルをコンソールに順番に出力するプログラムを作成して下さい。
+"""
 
-amimal_names = ("dog", "cat", "lion")
+animal_names = ("dog", "cat", "lion")
 
 
 # 下記にプログラムを記載して下さい。

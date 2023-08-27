@@ -7,11 +7,11 @@
 
 num_string = "5678"
 
-def is_numeric(letter: str):
+def is_numeric_str(letter: str):
     pass
 
 if __name__ == '__main__':
-    if (is_numeric(sample)):
+    if (is_numeric_str(num_string)):
         print(f"{num_string}は文字列型の数字です。")
     else:
         print(f"{num_string}は文字列型の数字ではありません。")
