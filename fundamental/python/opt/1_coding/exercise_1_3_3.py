@@ -9,7 +9,7 @@ templateであるinput_listに変更を加えず、input_listをコピーした�
 input_list = [0, 1, 1, 2]
 
 
-def list_copy():
+def list_copy(input_list: list) -> list:
     # inputリストのコピーを作成してください。
 
     # ここでコピーしたもの2番目の値を2に入れ替えてください。

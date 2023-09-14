@@ -13,4 +13,4 @@ def transform_second_element_to_str(test_list: list):
 
 if __name__ == '__main__':
     result_list = transform_second_element_to_str(nums)
-    print(result_list)
+    print(result_list * 4)
